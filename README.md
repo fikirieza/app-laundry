@@ -6,7 +6,7 @@ Aplikasi ini adalah tugas besar untuk menyelesaikan Pemrograman Web II.
 
 Daftar/Register admin dengan url /register-admin. Secret key dapat diubah di env atau default "Secret123".
 
-Demo website: https://laundry-yuk.herokuapp.com/ (Berhubung DB nya harus connect CC jadi cuma landing page saja)
+Demo website: https://laundry-yuk.herokuapp.com/ (Berhubung DB nya harus connect Credit Card jadi cuma landing page saja)
 
 Login admin:
 
