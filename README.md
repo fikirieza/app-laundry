@@ -26,10 +26,10 @@ Pass : admin123
 8.  Copy dan rename .env.example menjadi .env
 9.  Kembali ke terminal, <code>php artisan key:generate</code>
 10. Setting koneksi database di file .env <b>(DB_DATABASE, DB_USERNAME, DB_PASSWORD)<b>
-11. Jalankan perintah <code>php artisan migrate<code>Jika di cek di phpmyadmin, seharusnya <br>tabel sudah muncul
+11. Jalankan perintah <code>php artisan migrate<code>Jika di cek di phpmyadmin, seharusnya tabel sudah muncul
 12. Jalankan perintah <code>php artisan migrate:fresh --seed</code>
 13. Setelah selesai, buka aplikasi melalui browser, misal : <code>http://localhost/app-laundry/public</code>
-14. Untuk Daftar/Register admin dengan url/register-admin. Secret key dapat diubah di env atau default "Secret123".
+14. Untuk Daftar/Register admin dengan url/register-admin. Secret key dapat diubah di .env atau default "Secret123"
 
 
 ## About Laravel
@@ -45,5 +45,6 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 -   [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
+# app-laundry
 # app-laundry
 # app-laundry
